@@ -8,7 +8,7 @@ class ScaleScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue,
       body: Center(
-        child: RaisedButton(
+        child: ElevatedButton(
           child: Text('ScaleTransition'),
           onPressed: () => Navigator.push(context, ScaleRoute(page: Screen2())),
         ),

@@ -13,22 +13,22 @@ class SlideScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
               child: Text('SlideRightTransition'),
               onPressed: () =>
                   Navigator.push(context, SlideRightRoute(page: Screen2())),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('SlideLeftTransition'),
               onPressed: () =>
                   Navigator.push(context, SlideLeftRoute(page: Screen2())),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('SlideTopTransition'),
               onPressed: () =>
                   Navigator.push(context, SlideTopRoute(page: Screen2())),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('SlideBottomTransition'),
               onPressed: () =>
                   Navigator.push(context, SlideBottomRoute(page: Screen2())),

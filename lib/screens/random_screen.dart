@@ -14,12 +14,12 @@ class RandomScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
               child: Text('EnterExitSlideTransition'),
               onPressed: () => Navigator.push(context,
                   EnterExitRoute(exitPage: this, enterPage: Screen2())),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('ScaleRotateTransition'),
               onPressed: () =>
                   Navigator.push(context, ScaleRotateRoute(page: Screen2())),

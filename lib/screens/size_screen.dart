@@ -8,7 +8,7 @@ class SizeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue,
       body: Center(
-        child: RaisedButton(
+        child: ElevatedButton(
           child: Text('SizeTransition'),
           onPressed: () => Navigator.push(context, SizeRoute(page: Screen2())),
         ),
